@@ -54,7 +54,7 @@ mlua = { version = "0.11.6", features = [
 redis = { version = "0.32.5", features = [
     "tokio-comp",
     "connection-manager",
-    "tcp_nodelay"，
+    "tcp_nodelay",
     "tokio-rustls-comp" # 启用tls支持
 ], default-features = false, optional = true }
 blake3 = { version = "1.8.5", default-features = false }
